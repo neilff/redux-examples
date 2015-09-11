@@ -15,7 +15,6 @@ export default angular
     components,
     actions
   ])
-  .run(() => console.log('online'))
   .config(($ngReduxProvider) => {
     $ngReduxProvider.createStoreWith(rootReducer, [thunkMiddleware]);
   })

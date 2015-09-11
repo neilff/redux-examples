@@ -14,5 +14,5 @@ new WebpackDevServer(webpack(config), {
     console.log(err);
   }
 
-  console.log('http://localhost:3000');
+  console.log('http://localhost:3000/src');
 });

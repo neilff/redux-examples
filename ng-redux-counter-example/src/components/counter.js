@@ -2,7 +2,6 @@ import angular from 'angular';
 
 class CounterController {
   constructor($scope, $ngRedux, counterActions) {
-    console.log('CounterController');
 
     let unsubscribe = $ngRedux.connect(state => ({counter: state.counter}))(this);
     $scope.$on('$destroy', unsubscribe);
