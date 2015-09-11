@@ -1,0 +1,25 @@
+{
+  "name": "ng-redux-counter-example",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.5",
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "ng-redux": "^2.0.2",
+    "redux": "^2.0.0",
+    "redux-logger": "^1.0.6",
+    "redux-thunk": "^0.1.0"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^0.8.2",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
