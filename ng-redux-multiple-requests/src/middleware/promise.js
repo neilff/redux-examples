@@ -60,5 +60,3 @@ export default function promiseMiddleware() {
     );
   }
 }
-
-promiseMiddleware.$inject = ['$http', '$timeout'];

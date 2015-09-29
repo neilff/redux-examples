@@ -1,0 +1,14 @@
+{
+  "name": "reselect-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "start": "babel-node example.js"
+  },
+  "author": "Neil Fenton <neilff@gmail.com> (https://www.github.com/neilff)",
+  "license": "ISC",
+  "dependencies": {
+    "reselect": "^1.1.0"
+  }
+}
