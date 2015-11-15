@@ -26,6 +26,11 @@ Demostrates how to perform multiple requests, pull your code out of Angular (and
 
 A simple boilerplate for building Redux applications using React. Uses react router and redux router to demonstrate how to build an application with multiple routes.
 
+## redux-react-routing-auth
+
+Boilerplate for a simple login with redirects if the user is not
+authenticated.
+
 ## Redux
 
 ##reselect-example 
