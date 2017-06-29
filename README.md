@@ -33,6 +33,6 @@ authenticated.
 
 ## Redux
 
-##reselect-example 
+## reselect-example 
 
 Shows how to build a selector to select separate parts of your state. Use your stores state combined with a selector to derive new data.
